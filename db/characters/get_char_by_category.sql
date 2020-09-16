@@ -1,2 +1,3 @@
-SELECT * FROM characters
+SELECT *
+FROM characters
 WHERE category ilike $1;

@@ -6,5 +6,5 @@ export const Character = styled.div`
     display: flex;
     flex-direction: column;
     position: relative;
-    
+
 `

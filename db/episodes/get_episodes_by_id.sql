@@ -1,2 +1,3 @@
-SELECT * FROM episodes
+SELECT *
+FROM episodes
 WHERE episode_id = $1;

@@ -8,11 +8,11 @@ import Playground from './pages/Playground';
 
 
 export default (
-  <Switch> 
+  <Switch>
     <Route exact path="/" component={Home} />
-    <Route path="/about" component={About} />    
-    <Route path="/playground" component={Playground} />    
-    <Route path="/documentation" component={Docs} />                
+    <Route path="/about" component={About} />
+    <Route path="/playground" component={Playground} />
+    <Route path="/documentation" component={Docs} />
     <Route path='*' render={()=> <h1>404</h1>}/>
   </Switch>
 );
